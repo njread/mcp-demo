@@ -1,0 +1,18 @@
+{
+  "name": "box-ai-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "mcp.js",
+  "scripts": {
+    "start": "node mcp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "box", "ai", "metadata", "extraction"],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP server for extracting metadata from Box files using Box AI",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.16",
+    "zod": "^3.25.76"
+  }
+}
